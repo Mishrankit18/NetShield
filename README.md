@@ -1,6 +1,6 @@
 # Phishing Website Detection
 
-Machine learning project for detecting phishing websites vs. legitimate websites based on URL, domain, and page-level features, modeled after [ML-ProjectKart / Phishing Website Detection](https://github.com/prathimacode-hub/ML-ProjectKart/tree/main/Phishing%20Website%20Detection).
+Machine learning project for detecting phishing websites vs. legitimate websites based on URL, domain, and page-level features, modeled after [Phishing Website Detection](https://github.com/Mishrankit18/NetShield).
 
 ## Project Structure
 
