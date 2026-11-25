@@ -1,0 +1,155 @@
+{
+  "dataset_rows": 11054,
+  "feature_count": 30,
+  "train_rows": 8843,
+  "test_rows": 2211,
+  "best_model": "Random Forest",
+  "best_accuracy": 0.9738,
+  "url_model_accuracy": 0.9141,
+  "results": [
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9738,
+      "precision": 0.9688,
+      "recall": 0.9846,
+      "f1_score": 0.9767,
+      "confusion_matrix": [
+        [
+          940,
+          39
+        ],
+        [
+          19,
+          1213
+        ]
+      ],
+      "image": "Images/cm_random_forest.png"
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.9706,
+      "precision": 0.9672,
+      "recall": 0.9805,
+      "f1_score": 0.9738,
+      "confusion_matrix": [
+        [
+          938,
+          41
+        ],
+        [
+          24,
+          1208
+        ]
+      ],
+      "image": "Images/cm_xgboost.png"
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9656,
+      "precision": 0.9669,
+      "recall": 0.9716,
+      "f1_score": 0.9692,
+      "confusion_matrix": [
+        [
+          938,
+          41
+        ],
+        [
+          35,
+          1197
+        ]
+      ],
+      "image": "Images/cm_decision_tree.png"
+    },
+    {
+      "model": "Support Vector Machine",
+      "accuracy": 0.9602,
+      "precision": 0.954,
+      "recall": 0.9756,
+      "f1_score": 0.9647,
+      "confusion_matrix": [
+        [
+          921,
+          58
+        ],
+        [
+          30,
+          1202
+        ]
+      ],
+      "image": "Images/cm_support_vector_machine.png"
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.9539,
+      "precision": 0.9498,
+      "recall": 0.9683,
+      "f1_score": 0.959,
+      "confusion_matrix": [
+        [
+          916,
+          63
+        ],
+        [
+          39,
+          1193
+        ]
+      ],
+      "image": "Images/cm_gradient_boosting.png"
+    },
+    {
+      "model": "K-Nearest Neighbors",
+      "accuracy": 0.9412,
+      "precision": 0.9444,
+      "recall": 0.9505,
+      "f1_score": 0.9474,
+      "confusion_matrix": [
+        [
+          910,
+          69
+        ],
+        [
+          61,
+          1171
+        ]
+      ],
+      "image": "Images/cm_k_nearest_neighbors.png"
+    },
+    {
+      "model": "AdaBoost",
+      "accuracy": 0.9403,
+      "precision": 0.9379,
+      "recall": 0.9562,
+      "f1_score": 0.9469,
+      "confusion_matrix": [
+        [
+          901,
+          78
+        ],
+        [
+          54,
+          1178
+        ]
+      ],
+      "image": "Images/cm_adaboost.png"
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9389,
+      "precision": 0.9406,
+      "recall": 0.9505,
+      "f1_score": 0.9455,
+      "confusion_matrix": [
+        [
+          905,
+          74
+        ],
+        [
+          61,
+          1171
+        ]
+      ],
+      "image": "Images/cm_logistic_regression.png"
+    }
+  ]
+}
